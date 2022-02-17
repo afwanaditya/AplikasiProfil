@@ -11,14 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutsalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OsisActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-
             android:exported="false" />
         <activity
             android:name=".guruActivity"
             android:exported="false" />
         <activity
-            android:name=".eskulActivity"
+            android:name=".EkskulActivity"
             android:exported="false" />
         <activity
             android:name=".galeryActivity"
