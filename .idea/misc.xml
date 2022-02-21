@@ -20,10 +20,14 @@
         <entry key="..\:/Users/User/MyApplication2/app/src/main/res/layout/activity_profile.xml" value="0.13645833333333332" />
         <entry key="..\:/Users/User/MyApplication2/app/src/main/res/layout/activity_splash_screen.xml" value="0.12" />
         <entry key="..\:/Users/User/MyApplication2/app/src/main/res/layout/slider_item.xml" value="0.16" />
+        <entry key="..\:/Users/dwiky/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/dwiky/MyApplication2/app/src/main/res/layout/activity_osis.xml" value="0.1" />
+        <entry key="..\:/Users/dwiky/MyApplication2/app/src/main/res/layout/activity_perpus.xml" value="0.1" />
+        <entry key="..\:/Users/dwiky/MyApplication2/app/src/main/res/layout/activity_pmr.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
