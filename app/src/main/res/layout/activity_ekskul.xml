@@ -42,201 +42,196 @@
 
                 </RelativeLayout>
 
-                <androidx.core.widget.NestedScrollView
+
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:layout_bahavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+                    android:padding="15dp">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
+                    <GridLayout
+                        android:id="@+id/mainGrid"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="15dp">
+                        android:layout_gravity="center_horizontal"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:columnOrderPreserved="false">
 
-                        <GridLayout
-                            android:id="@+id/mainGrid"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_gravity="center_horizontal"
-                            android:alignmentMode="alignMargins"
-                            android:columnCount="1"
-                            android:columnOrderPreserved="false">
+                        <!--                            PEMBUKA MENU 1-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="osis"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
 
-<!--                            PEMBUKA MENU 1-->
-                            <androidx.cardview.widget.CardView
-                                android:onClick="osis"
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center">
 
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="horizontal"
-                                    android:layout_gravity="center">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_margin="10dp"
-                                        android:layout_gravity="center"
-                                        android:layout_marginRight="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:src="@drawable/logoosis">
-
-                                    </ImageView>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI OSIS">
-
-                                    </TextView>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-<!--                            PEMBUKA MENU 2-->
-                            <androidx.cardview.widget.CardView
-                                android:onClick="pramuka"
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="horizontal"
-                                    android:layout_gravity="center">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_margin="10dp"
-                                        android:layout_gravity="center"
-                                        android:layout_marginRight="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:src="@drawable/logopramuka">
-
-                                    </ImageView>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI OSIS">
-
-                                    </TextView>
-
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-<!--                            PEMBUKA MENU 3-->
-                            <androidx.cardview.widget.CardView
-                                android:onClick="pmr"
-                                android:layout_width="359dp"
-                                android:layout_height="150dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp"
                                     android:layout_gravity="center"
-                                    android:orientation="horizontal">
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logoosis">
 
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:layout_margin="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:layout_marginRight="10dp"
-                                        android:src="@drawable/logopmr">
+                                </ImageView>
 
-                                    </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="ORGANISASI OSIS">
 
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI PMR">
+                                </TextView>
 
-                                    </TextView>
+                            </LinearLayout>
 
-                                </LinearLayout>
+                        </androidx.cardview.widget.CardView>
 
-                            </androidx.cardview.widget.CardView>
+                        <!--                            PEMBUKA MENU 2-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="pramuka"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
 
-<!--                            PEMBUKA MENU 4-->
-                            <androidx.cardview.widget.CardView
-                                android:onClick="futsal"
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center">
 
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:orientation="horizontal"
-                                    android:layout_gravity="center">
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logopramuka">
 
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_margin="10dp"
-                                        android:layout_gravity="center"
-                                        android:layout_marginRight="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:src="@drawable/logofutsal">
+                                </ImageView>
 
-                                    </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="ORGANISASI OSIS">
 
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI OSIS">
+                                </TextView>
 
-                                    </TextView>
+                            </LinearLayout>
 
-                                </LinearLayout>
+                        </androidx.cardview.widget.CardView>
 
-                            </androidx.cardview.widget.CardView>
+                        <!--                            PEMBUKA MENU 3-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="pmr"
+                            android:layout_width="359dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
 
-                        </GridLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-                </androidx.core.widget.NestedScrollView>
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:src="@drawable/logopmr">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="ORGANISASI PMR">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <!--                            PEMBUKA MENU 4-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="futsal"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logofutsal">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="ORGANISASI OSIS">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </GridLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </LinearLayout>
 
