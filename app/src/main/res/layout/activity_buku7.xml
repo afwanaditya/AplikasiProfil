@@ -84,7 +84,7 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
                                 android:onClick="mtk7"
@@ -114,17 +114,17 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="MATEMATIKA"/>
+                                android:text="BAHASA INDONESIA"/>
                             <Button
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
+                                android:onClick="ipa"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
@@ -158,10 +158,10 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
+                                android:onClick="bind"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
@@ -195,10 +195,9 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
@@ -251,10 +250,9 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
@@ -288,10 +286,9 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
@@ -325,10 +322,9 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
@@ -362,10 +358,9 @@
                                 android:layout_marginLeft="3dp"
                                 android:layout_marginRight="3dp"
                                 android:autoLink="web"
-                                android:background="#0083f"
+                                android:background="#00838f"
                                 android:clickable="true"
                                 android:cursorVisible="true"
-                                android:onClick="mtk7"
                                 android:textColor="@color/white"
                                 android:text="BACA"/>
 
